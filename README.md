@@ -1,40 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 💻 Cinema-Ticket-Booking-Form
 
-## Getting Started
+## 👨‍💻 Author
+**Adarsh Pandit**  
+BSc Computing (Honours), Year 2  
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📖 Overview
+This project showcases my foundational skills in **Server-Side Web Development**, implemented using **Next.js**, **Node.js**, and server-side validation techniques.  
+It includes three core components — each demonstrating my ability to create dynamic, interactive, and user-friendly web applications with a focus on input validation, data persistence, and responsive design.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The assignment is divided into three parts:
+1. **Part A:** Cinema Ticket Booking Form  
+2. **Part B:** House Appliance Inventory System  
+3. **Part C:** Sticky Form with Validation and Error Handling  
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎬 Part A – Cinema Ticket Booking Form
+A simple yet dynamic web application that allows users to book cinema tickets online.
 
-## Learn More
+### 🔧 Features
+- User-friendly form to collect mobile number, showtime, and movie selection.
+- Server-side validation ensures accurate and complete data submission.  
+- Displays a confirmation message upon successful submission.  
+- Clean and structured layout designed for intuitive interaction.
 
-To learn more about Next.js, take a look at the following resources:
+### 🧠 Key Learnings
+- Implementing server-side validation logic.  
+- Handling form data and confirmation messages securely.  
+- Structuring user inputs to ensure data integrity.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🏠 Part B – House Appliance Inventory System
+A more advanced section focused on CRUD-style form handling and structured data entry.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔧 Features
+- Form to record appliance details such as **Eircode**, **Appliance Type**, **Brand**, **Model**, **Serial Number**, **Purchase Date**, and **Warranty Date**.  
+- Validations to ensure that all inputs match expected formats (e.g., Eircode regex pattern).  
+- Displays a detailed confirmation page summarizing all entered information.  
+- Focused on both functional correctness and visual consistency.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### 🧠 Key Learnings
+- Advanced form validation using regex and conditional checks.  
+- Implementing clean, reusable form components.  
+- Managing multiple input types and ensuring proper sanitization.
+
+
+
+## 🧾 Part C – Sticky Form with Validation and Error Handling
+This part enhances the inventory form with **sticky functionality**, meaning user inputs persist even after validation errors — improving usability and accessibility.
+
+### 🔧 Features
+- Retains valid input data when the user submits invalid fields.  
+- Displays targeted error messages beside incorrect inputs.  
+- Server-side processing to handle, validate, and sanitize data effectively.  
+- Ensures successful submissions display a final confirmation message.
+
+### 🧠 Key Learnings
+- Implementing “sticky form” logic to improve user experience.  
+- Handling multiple validation and sanitization layers.  
+- Developing robust error handling and re-rendering strategies in Next.js.  
+- Understanding how to separate client-side rendering from server-side logic cleanly.
+
+
+
+## 🧩 Technical Stack
+- **Frontend:** HTML5, CSS3  
+- **Backend:** Node.js, Next.js (Server-Side Rendering)  
+- **Validation:** Regex and server-side logic  
+- **Tools:** Visual Studio Code, XAMPP, GitHub  
+- **Deployment:** Localhost environment with modular structure  
+
+
+
+## 📄 Visual Overview
+**File:** `UI Screen_visual.pdf`  
+This PDF contains screenshots of each form’s interface, submission confirmation, and validation behavior, demonstrating the workflow and user experience for all three parts.
+
+
+
+## 🚀 What I Learned
+- Structuring multi-part web applications using modular approaches.  
+- Integrating server-side validation with responsive form interfaces.  
+- Managing user input, data validation, and error feedback effectively.  
+- Applying professional coding standards, folder structures, and consistent UI design.  
+- Using Git for version control and progressive project commits.
+
+
+
+## 💡 Future Enhancements
+- Store submitted form data in a MySQL database.  
+- Add user authentication for restricted form access.  
+- Expand appliance form to support file uploads (e.g., receipts).  
+- Implement dark/light mode toggle for enhanced accessibility.  
+
+
+
+## 🧠 Summary
+This project highlights my progression from **basic form handling** to **fully validated, user-friendly server-side web forms**.  
+It demonstrates my growing expertise in **Next.js**, **server-side validation**, and **UI/UX consistency**, setting a solid foundation for building larger-scale web applications.
+
+
+
+⭐ **Explore the PDF (`UI Screen_visual.pdf`) for a complete visual demonstration of all three assignments in action.**
